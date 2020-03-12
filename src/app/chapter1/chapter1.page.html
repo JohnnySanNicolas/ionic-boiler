@@ -1,11 +1,17 @@
 <ion-header>
   <ion-toolbar>
+      <ion-buttons slot="secondary">
+          <ion-button [routerDirection]="'root'" [routerLink]="['/toc']">
+            <ion-icon slot="icon-only" name="arrow-dropleft"></ion-icon>
+            TOC
+          </ion-button>
+        </ion-buttons>
     <ion-title>The Beginning</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="http://via.placeholder.com/640x360">
   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
     quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
     ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
@@ -37,7 +43,7 @@
       </ion-button>
     </ion-buttons>
 
-    <ion-title>Footer</ion-title>
+    <ion-title>Page 1</ion-title>
 
     <ion-buttons slot="primary">
       <ion-button [routerDirection]="'root'" [routerLink]="['/chapter2']">

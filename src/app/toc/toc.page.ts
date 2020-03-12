@@ -20,6 +20,24 @@ export class TocPage implements OnInit {
       icon: 'book',
       note: 'The Second Part'
     },
+    {
+      title: 'Chapter 3',
+      url: '/chapter3',
+      icon: 'book',
+      note: 'The Third Part'
+    },
+    {
+      title: 'Chapter 4',
+      url: '/chapter4',
+      icon: 'book',
+      note: 'The Fourth Part'
+    },
+    {
+      title: 'Chapter 5',
+      url: '/chapter5',
+      icon: 'book',
+      note: 'The End'
+    }
   ];
 
   constructor() { }
